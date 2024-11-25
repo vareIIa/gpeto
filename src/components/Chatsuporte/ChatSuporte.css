@@ -1,0 +1,29 @@
+.chatbox {
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .user {
+    text-align: right;
+    color: blue;
+    margin-bottom: 10px;
+  }
+  
+  .bot {
+    text-align: left;
+    color: rgb(122, 47, 165);
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: calc(100% - 80px);
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
